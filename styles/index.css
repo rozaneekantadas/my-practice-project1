@@ -22,7 +22,7 @@ body {
     text-align: right;
     max-width: 550px;
     margin-top: 215px;
-    margin-right: 230px;
+    margin-right: 200px;
 }
 
 .banner-title {
@@ -49,4 +49,43 @@ body {
     font-weight: 600;
     font-size: 20px;
     margin-top: 0px;
+}
+
+/* failures section  */
+
+.failures-last-year {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    margin-left: 200px;
+    width: auto;
+    gap: 90px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 0;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.failure-list {
+    max-width: 400px;
+}
+
+.failure-list ul {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    list-style: none;
+    padding: 0;
 }
