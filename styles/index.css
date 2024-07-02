@@ -145,3 +145,62 @@ body {
     font-size: 20px;
     margin-top: 24px;
 }
+
+/* footer section styles */
+
+footer {
+    height: 570px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+    gap: 330px;
+}
+
+.future-section-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.future-section-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #F8F8F8;
+    max-width: 485px;
+    margin-bottom: 25px;
+}
+
+.social-links a {
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.subscribe-section-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.subscribe-section input {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    border-color: #F3F3F3;
+    color: #F3F3F3;
+    background: none;
+    border-radius: 8px;
+    padding: 18px 30px;
+}
+
+.subscribe-btn {
+    color: #F15B22;
+    background-color: white;
+    border-radius: 8px;
+    border: 0px;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 24px;
+}
